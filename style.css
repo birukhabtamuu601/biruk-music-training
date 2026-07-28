@@ -1,0 +1,164 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+
+body{
+    background:#0d0d0d;
+    color:white;
+}
+
+
+
+header{
+    padding:20px;
+    background:#111;
+    text-align:center;
+    border-bottom:2px solid gold;
+}
+
+
+header h1{
+    color:gold;
+}
+
+
+nav{
+    margin-top:15px;
+}
+
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:10px;
+}
+
+
+
+.hero{
+    text-align:center;
+    padding:100px 20px;
+    background:
+    linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),
+    url("hero.jpg");
+
+    background-size:cover;
+}
+
+
+.hero h2{
+    color:gold;
+    font-size:50px;
+}
+
+
+.hero p{
+    font-size:20px;
+    margin:20px;
+}
+
+
+
+button{
+    padding:15px 35px;
+    background:gold;
+    color:black;
+    border:none;
+    border-radius:30px;
+    cursor:pointer;
+    font-size:18px;
+}
+
+
+
+.courses{
+    padding:50px 20px;
+    text-align:center;
+}
+
+
+.courses h2{
+    color:gold;
+}
+
+
+.card{
+    background:#1b1b1b;
+    padding:25px;
+    margin:20px auto;
+    max-width:400px;
+    border:2px solid gold;
+    border-radius:15px;
+}
+
+
+
+.register{
+    text-align:center;
+    padding:80px 20px;
+}
+
+
+.register h2{
+    color:gold;
+    font-size:40px;
+    margin-bottom:30px;
+}
+
+
+input,select{
+    width:90%;
+    max-width:400px;
+    padding:15px;
+    margin:10px;
+    border-radius:10px;
+}
+
+
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#111;
+}@media(max-width:768px){
+
+    header{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    nav{
+        margin-top:15px;
+    }
+
+    nav a{
+        display:inline-block;
+        margin:8px;
+    }
+
+    .hero{
+        padding:70px 15px;
+    }
+
+    .hero h2{
+        font-size:35px;
+    }
+
+    .hero p{
+        font-size:18px;
+    }
+
+    .card{
+        width:90%;
+    }
+
+    input,
+    select{
+        width:95%;
+    }
+
+}
